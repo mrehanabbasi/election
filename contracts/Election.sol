@@ -18,7 +18,7 @@ contract Election {
 
         // voted event
         event votedEvent (
-            unint indexed _candidateId
+            uint indexed _candidateId
         );
 
         function Election () public {
